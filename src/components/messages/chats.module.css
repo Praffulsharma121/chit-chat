@@ -1,0 +1,55 @@
+.body {
+  border: 1px solid gray;
+  padding: 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.header {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.senderBody {
+  justify-content: left;
+}
+
+.myBody {
+  justify-content: right;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  z-index: 1;
+  background-color: white;
+  border-radius: 30px;
+  width: 80%;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+}
+
+.sendIcon {
+  font-size: 24px;
+  margin-left: 10px;
+  color: gray;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.message--text{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.chat--box{
+    margin-top: 10px;
+    height: 80vh;
+    overflow: auto;
+}
